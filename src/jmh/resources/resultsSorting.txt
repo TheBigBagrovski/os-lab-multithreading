@@ -1,0 +1,31 @@
+Benchmark                               (size)  Mode  Cnt          Score          Error  Units
+SortingBenchmarks.benchmark_1Thread        100  avgt   10        210,259 ±       16,080  us/op
+SortingBenchmarks.benchmark_2Threads       100  avgt   10        451,131 ±        7,126  us/op
+SortingBenchmarks.benchmark_4Threads       100  avgt   10        894,886 ±       21,231  us/op
+SortingBenchmarks.benchmark_8Threads       100  avgt   10       1636,332 ±       72,172  us/op
+SortingBenchmarks.benchmark_16Threads      100  avgt   10       2708,425 ±       38,942  us/op
+
+SortingBenchmarks.benchmark_1Thread       1000  avgt   10       1120,159 ±       32,570  us/op
+SortingBenchmarks.benchmark_2Threads      1000  avgt   10        666,687 ±        6,880  us/op
+SortingBenchmarks.benchmark_4Threads      1000  avgt   10        937,985 ±       35,147  us/op
+SortingBenchmarks.benchmark_8Threads      1000  avgt   10       1623,961 ±      102,559  us/op
+SortingBenchmarks.benchmark_16Threads     1000  avgt   10       2754,321 ±      118,240  us/op
+
+SortingBenchmarks.benchmark_1Thread      10000  avgt   10      67358,992 ±      424,976  us/op
+SortingBenchmarks.benchmark_2Threads     10000  avgt   10      15250,443 ±      381,323  us/op
+SortingBenchmarks.benchmark_4Threads     10000  avgt   10       5575,494 ±      151,287  us/op
+SortingBenchmarks.benchmark_8Threads     10000  avgt   10       3113,890 ±      151,588  us/op
+SortingBenchmarks.benchmark_16Threads    10000  avgt   10       3160,937 ±      192,040  us/op
+
+SortingBenchmarks.benchmark_1Thread     100000  avgt   10    9854619,560 ±    31920,023  us/op
+SortingBenchmarks.benchmark_2Threads    100000  avgt   10    2521433,600 ±    31886,537  us/op
+SortingBenchmarks.benchmark_4Threads    100000  avgt   10     651657,085 ±    29576,559  us/op
+SortingBenchmarks.benchmark_8Threads    100000  avgt   10     162372,656 ±     2637,116  us/op
+SortingBenchmarks.benchmark_16Threads   100000  avgt   10      73038,468 ±     3008,211  us/op
+
+SortingBenchmarks.benchmark_1Thread    1000000  avgt   10  971698777,280 ± 25252407,984  us/op
+SortingBenchmarks.benchmark_2Threads   1000000  avgt   10  247768155,630 ±  2092256,103  us/op
+SortingBenchmarks.benchmark_4Threads   1000000  avgt   10   65031943,970 ±  1214222,001  us/op
+SortingBenchmarks.benchmark_8Threads   1000000  avgt   10   17807974,070 ±   161843,493  us/op
+SortingBenchmarks.benchmark_16Threads  1000000  avgt   10    7018925,530 ±   401291,510  us/op
+

@@ -1,22 +1,22 @@
-package code;
+package sorting;
 
-import java.util.Arrays;
-import java.util.Random;
+import lombok.Getter;
 
-public class ShakerSort {
+@Getter
+public class Sorter extends Thread {
 
-    public static void main(String[] args) {
-        // объявление и инициализация тестового массива
-        int arraySize = 10;  // размер массива
-        int[] array = new int[arraySize];
-        Random newRandom = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = newRandom.nextInt(10) + 1;
-        }
-        System.out.println("Массив до сортировки: " + Arrays.toString(array));
-        shakerSort(array);
-        // вывод отсортированного массива на экран
-        System.out.println("Массив после сортировки: " + Arrays.toString(array));
+    private final int[] arrayToSort;
+
+    /**
+     * Separate thread, that sorts given array in-place using shaker sorting
+     */
+    public Sorter(int[] arrayToSort) {
+        this.arrayToSort = arrayToSort;
+    }
+
+    @Override
+    public void run() {
+        shakerSort(arrayToSort);
     }
 
     public static void shakerSort(int[] array) {
@@ -43,4 +43,5 @@ public class ShakerSort {
             leftSide++; // уменьшаем количество проходов
         } while (leftSide < rightSide);
     }
+
 }

@@ -1,11 +1,21 @@
-package code;
+package sorting;
+
+import lombok.Getter;
 
 public class Merger extends Thread {
 
     private final int[] firstArray;
     private final int[] secondArray;
+    /**
+     * -- GETTER --
+     *  Get merged array
+     */
+    @Getter
     private final int[] resultArray;
 
+    /**
+     * Merges two sorted arrays in one sorted array
+     */
     public Merger(int[] firstArray, int[] secondArray) {
         this.firstArray = firstArray;
         this.secondArray = secondArray;
@@ -15,10 +25,6 @@ public class Merger extends Thread {
     @Override
     public void run() {
         merge();
-    }
-
-    public int[] getResultArray() {
-        return resultArray;
     }
 
     private void merge() {

@@ -1,0 +1,18 @@
+Benchmark                             (precision)  (terms)  Mode  Cnt        Score        Error  Units
+SeriesBenchmarks.benchmark_1Thread            100       80  avgt   10       57,725 ±      0,520  us/op
+SeriesBenchmarks.benchmark_2Threads           100       80  avgt   10      368,155 ±     14,520  us/op
+SeriesBenchmarks.benchmark_4Threads           100       80  avgt   10      442,194 ±     43,405  us/op
+SeriesBenchmarks.benchmark_8Threads           100       80  avgt   10      805,989 ±     38,219  us/op
+SeriesBenchmarks.benchmark_12Threads          100       80  avgt   10     1203,881 ±     42,316  us/op
+
+SeriesBenchmarks.benchmark_1Thread           1000      500  avgt   10     8835,122 ±     78,080  us/op
+SeriesBenchmarks.benchmark_2Threads          1000      500  avgt   10    10466,762 ±    292,942  us/op
+SeriesBenchmarks.benchmark_4Threads          1000      500  avgt   10     6500,857 ±     86,015  us/op
+SeriesBenchmarks.benchmark_8Threads          1000      500  avgt   10     6644,798 ±    922,613  us/op
+SeriesBenchmarks.benchmark_12Threads         1000      500  avgt   10     7197,604 ±    214,517  us/op
+
+SeriesBenchmarks.benchmark_1Thread          10000     2000  avgt   10   901209,100 ±  14418,642  us/op
+SeriesBenchmarks.benchmark_2Threads         10000     2000  avgt   10  1375109,830 ± 103708,302  us/op
+SeriesBenchmarks.benchmark_4Threads         10000     2000  avgt   10   918776,545 ±  42075,697  us/op
+SeriesBenchmarks.benchmark_8Threads         10000     2000  avgt   10  1004805,725 ±  52399,310  us/op
+SeriesBenchmarks.benchmark_12Threads        10000     2000  avgt   10  1050827,830 ±  26671,371  us/op

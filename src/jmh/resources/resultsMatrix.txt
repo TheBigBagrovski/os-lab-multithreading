@@ -1,0 +1,18 @@
+Benchmark                             (size)  Mode  Cnt         Score         Error  Units
+MatrixBenchmarks.benchmark_1Thread        10  avgt   10        14,225 ±       0,226  us/op
+MatrixBenchmarks.benchmark_2Threads       10  avgt   10       343,463 ±      40,107  us/op
+MatrixBenchmarks.benchmark_4Threads       10  avgt   10       414,606 ±       6,901  us/op
+MatrixBenchmarks.benchmark_8Threads       10  avgt   10       335,101 ±      21,616  us/op
+MatrixBenchmarks.benchmark_12Threads      10  avgt   10       232,637 ±       8,315  us/op
+
+MatrixBenchmarks.benchmark_1Thread       100  avgt   10     11746,525 ±     174,454  us/op
+MatrixBenchmarks.benchmark_2Threads      100  avgt   10      7470,245 ±     409,063  us/op
+MatrixBenchmarks.benchmark_4Threads      100  avgt   10      4665,586 ±     398,437  us/op
+MatrixBenchmarks.benchmark_8Threads      100  avgt   10      4670,184 ±     188,185  us/op
+MatrixBenchmarks.benchmark_12Threads     100  avgt   10      5469,488 ±     869,739  us/op
+
+MatrixBenchmarks.benchmark_1Thread      1000  avgt   10  41255809,120 ± 4169789,311  us/op
+MatrixBenchmarks.benchmark_2Threads     1000  avgt   10  17473004,550 ± 2431304,696  us/op
+MatrixBenchmarks.benchmark_4Threads     1000  avgt   10  11339683,810 ± 1636373,975  us/op
+MatrixBenchmarks.benchmark_8Threads     1000  avgt   10   7338863,100 ±  694381,248  us/op
+MatrixBenchmarks.benchmark_12Threads    1000  avgt   10   7259496,580 ±  757204,313  us/op
